@@ -1,0 +1,97 @@
+{
+  "name": "Universal Heavy Apps & Autostart Freezing List",
+  "description": "Third-party applications that consume extensive RAM and battery in the background. Designed for 1-tap freezing via Shizuku + Hail or hibernation scripts.",
+  "apps": [
+    {
+      "package": "com.jio.myjio",
+      "name": "MyJio",
+      "typical_ram_mb": 350,
+      "category": "Telecom / SuperApp",
+      "notes": "Keeps persistent ad SDKs, analytics, and notification pollers active in RAM."
+    },
+    {
+      "package": "jio.cloud.drive",
+      "name": "JioCloud",
+      "typical_ram_mb": 330,
+      "category": "Cloud Backup",
+      "notes": "Continuous file scanning and background upload listeners."
+    },
+    {
+      "package": "com.instagram.android",
+      "name": "Instagram",
+      "typical_ram_mb": 500,
+      "category": "Social",
+      "notes": "Runs fbns notification daemon and background cache sync."
+    },
+    {
+      "package": "com.instagram.barcelona",
+      "name": "Threads",
+      "typical_ram_mb": 200,
+      "category": "Social",
+      "notes": "Persistent feed poller."
+    },
+    {
+      "package": "com.instagram.basel",
+      "name": "Instagram Basel / Edits",
+      "typical_ram_mb": 250,
+      "category": "Social / Creator",
+      "notes": "Video caching background service."
+    },
+    {
+      "package": "com.reddit.frontpage",
+      "name": "Reddit",
+      "typical_ram_mb": 290,
+      "category": "Social",
+      "notes": "Notification push daemon and cache indexing."
+    },
+    {
+      "package": "com.meesho.supply",
+      "name": "Meesho",
+      "typical_ram_mb": 150,
+      "category": "Shopping",
+      "notes": "Promotional notification listeners and tracking SDKs."
+    },
+    {
+      "package": "in.amazon.mShop.android.shopping",
+      "name": "Amazon India",
+      "typical_ram_mb": 180,
+      "category": "Shopping",
+      "notes": "Persistent background ad tracking and cart synchronization."
+    },
+    {
+      "package": "com.flipkart.android",
+      "name": "Flipkart",
+      "typical_ram_mb": 160,
+      "category": "Shopping",
+      "notes": "Promotional notification and tracking services."
+    },
+    {
+      "package": "com.application.zomato",
+      "name": "Zomato",
+      "typical_ram_mb": 140,
+      "category": "Food Delivery",
+      "notes": "Location polling and promotional triggers."
+    },
+    {
+      "package": "in.swiggy.android",
+      "name": "Swiggy",
+      "typical_ram_mb": 140,
+      "category": "Food Delivery",
+      "notes": "Location listeners and promotional triggers."
+    },
+    {
+      "package": "com.grofers.customerapp",
+      "name": "Blinkit",
+      "typical_ram_mb": 120,
+      "category": "Quick Commerce",
+      "notes": "Location listeners and promotional triggers."
+    },
+    {
+      "package": "com.truecaller",
+      "name": "Truecaller",
+      "typical_ram_mb": 200,
+      "category": "Caller ID",
+      "notes": "Draws over incoming calls, runs persistent notification services."
+    }
+  ]
+}

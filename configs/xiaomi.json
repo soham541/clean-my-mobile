@@ -1,0 +1,72 @@
+{
+  "manufacturer": "Xiaomi / Redmi / POCO",
+  "os": "MIUI / HyperOS",
+  "description": "Safe debloating lists for Xiaomi, Redmi, and POCO devices.",
+  "categories": {
+    "ad_daemons_and_trackers": {
+      "description": "System advertisement services and aggressive tracking daemons.",
+      "packages": [
+        {
+          "package": "com.miui.msa.global",
+          "name": "MIUI System Ads (MSA)",
+          "notes": "Pushes ads to system apps and notifications."
+        },
+        {
+          "package": "com.miui.analytics",
+          "name": "MIUI Analytics",
+          "notes": "Uploads user activity and diagnostic metrics."
+        },
+        {
+          "package": "com.xiaomi.joyose",
+          "name": "Joyose Daemon",
+          "notes": "Ad tracking and SMS marketing background agent."
+        },
+        {
+          "package": "com.miui.daemon",
+          "name": "System Daemon",
+          "notes": "Background diagnostics and data collection."
+        },
+        {
+          "package": "com.miui.hybrid",
+          "name": "Quick Apps",
+          "notes": "Installs web apps silently and pushes recommendations."
+        },
+        {
+          "package": "com.miui.hybrid.accessory",
+          "name": "Quick Apps Accessory",
+          "notes": "Telemetry component for Quick Apps."
+        }
+      ]
+    },
+    "xiaomi_optional_apps": {
+      "description": "Pre-installed duplicate applications and services.",
+      "packages": [
+        {
+          "package": "com.xiaomi.midrop",
+          "name": "ShareMe (Mi Drop)",
+          "notes": "Disable if using Google Quick Share / Nearby."
+        },
+        {
+          "package": "com.miui.bugreport",
+          "name": "Feedback & Bug Report",
+          "notes": "Bug tracking uploader."
+        },
+        {
+          "package": "com.xiaomi.glgm",
+          "name": "Games Hub",
+          "notes": "Promotional games app."
+        },
+        {
+          "package": "com.xiaomi.mipicks",
+          "name": "GetApps (Mi App Store)",
+          "notes": "Secondary app store with ads."
+        },
+        {
+          "package": "com.mipay.wallet.in",
+          "name": "Mi Pay India",
+          "notes": "Xiaomi payment integration."
+        }
+      ]
+    }
+  }
+}

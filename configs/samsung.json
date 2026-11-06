@@ -1,0 +1,107 @@
+{
+  "manufacturer": "Samsung",
+  "os": "One UI (Android 11 - 15)",
+  "description": "Safe debloating lists for Samsung Galaxy devices running One UI.",
+  "categories": {
+    "safe_telemetry_and_trackers": {
+      "description": "Background analytics, diagnostics, and telemetry services.",
+      "packages": [
+        {
+          "package": "com.sec.android.diagmonagent",
+          "name": "Diagnostic Monitoring Agent",
+          "notes": "Uploads crash and telemetry data to Samsung."
+        },
+        {
+          "package": "com.samsung.android.rubin.app",
+          "name": "Customization Service (Rubin)",
+          "notes": "Tracks user behavior for personalized marketing."
+        },
+        {
+          "package": "com.samsung.android.ipsgeofence",
+          "name": "IPS Geofence",
+          "notes": "Background geofencing service for marketing."
+        },
+        {
+          "package": "com.samsung.android.fmm",
+          "name": "Find My Mobile (Optional)",
+          "notes": "Keep enabled if using Samsung Find; safe to disable if using Google Find My Device."
+        },
+        {
+          "package": "com.facebook.services",
+          "name": "Facebook Services",
+          "notes": "Pre-installed Facebook tracking daemon."
+        },
+        {
+          "package": "com.facebook.katana",
+          "name": "Facebook App Stub",
+          "notes": "Pre-installed installer stub."
+        },
+        {
+          "package": "com.facebook.system",
+          "name": "Facebook App Installer",
+          "notes": "Pre-installed system installer for Meta apps."
+        },
+        {
+          "package": "com.facebook.appmanager",
+          "name": "Facebook App Manager",
+          "notes": "Pre-installed updater daemon for Meta apps."
+        }
+      ]
+    },
+    "bixby_suite": {
+      "description": "Samsung Bixby voice assistant and vision components.",
+      "packages": [
+        {
+          "package": "com.samsung.android.bixby.agent",
+          "name": "Bixby Voice Agent",
+          "notes": "Bixby background listener."
+        },
+        {
+          "package": "com.samsung.android.bixby.wakeup",
+          "name": "Bixby Wakeup",
+          "notes": "Hotword listening service."
+        },
+        {
+          "package": "com.samsung.android.visionintelligence",
+          "name": "Bixby Vision",
+          "notes": "AR camera visual search."
+        },
+        {
+          "package": "com.samsung.android.bixby.service",
+          "name": "Bixby Service",
+          "notes": "Core Bixby framework."
+        }
+      ]
+    },
+    "samsung_optional_bloat": {
+      "description": "Samsung duplicate apps and services.",
+      "packages": [
+        {
+          "package": "com.samsung.android.game.gamehome",
+          "name": "Game Launcher / Hub",
+          "notes": "Pushes game promotions and notifications."
+        },
+        {
+          "package": "com.samsung.android.game.gametools",
+          "name": "Game Booster / Tools",
+          "notes": "Gaming overlay tool."
+        },
+        {
+          "package": "com.samsung.android.kidsinstaller",
+          "name": "Samsung Kids Installer",
+          "notes": "Kids mode setup utility."
+        },
+        {
+          "package": "com.sec.android.app.samsungapps",
+          "name": "Galaxy Store",
+          "notes": "Secondary app store with promotional ads."
+        },
+        {
+          "package": "com.samsung.android.spay",
+          "name": "Samsung Pay / Wallet",
+          "notes": "Disable if using Google Wallet or bank UPI apps."
+        }
+      ]
+    }
+  }
+}

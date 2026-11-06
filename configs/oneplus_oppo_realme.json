@@ -1,0 +1,142 @@
+{
+  "manufacturer": "OnePlus / Oppo / Realme",
+  "os": "OxygenOS / ColorOS / RealmeUI",
+  "description": "Safe debloating lists for OnePlus, Oppo, and Realme devices running Android 11, 12, 13, and 14.",
+  "categories": {
+    "safe_telemetry_and_trackers": {
+      "description": "Background telemetry, push ad daemons, and crash reporters. 100% safe to disable with zero loss of daily functionality.",
+      "packages": [
+        {
+          "package": "com.heytap.mcs",
+          "name": "HeyTap Cloud Messaging",
+          "notes": "Delivers push ads and tracking; consumes ~250MB RAM."
+        },
+        {
+          "package": "com.oplus.deepthinker",
+          "name": "Oppo DeepThinker AI Engine",
+          "notes": "Predictive AI resource hog; consumes ~70MB RAM."
+        },
+        {
+          "package": "com.oplus.statistics.rom",
+          "name": "ROM Analytics & Telemetry",
+          "notes": "Background device telemetry upload daemon."
+        },
+        {
+          "package": "com.oplus.crashbox",
+          "name": "Crashbox Logger",
+          "notes": "Crash dump recorder."
+        },
+        {
+          "package": "com.oplus.interconnectcollectkit",
+          "name": "Interconnect Data Collector",
+          "notes": "User behavior tracking collector."
+        },
+        {
+          "package": "com.oplus.logkit",
+          "name": "Diagnostic LogKit",
+          "notes": "System logging utility."
+        },
+        {
+          "package": "com.oplus.qualityprotect",
+          "name": "Quality Protect Analytics",
+          "notes": "Telemetry logger."
+        },
+        {
+          "package": "com.oplus.postmanservice",
+          "name": "Postman Push Service",
+          "notes": "Internal push transport."
+        },
+        {
+          "package": "com.oplus.sau",
+          "name": "Silent App Auto-Update",
+          "notes": "Auto-installs system app updates without user prompts."
+        },
+        {
+          "package": "com.oplus.romupdate",
+          "name": "ROM Config Auto-Update",
+          "notes": "Pushes OTA carrier and region config updates."
+        },
+        {
+          "package": "com.google.android.feedback",
+          "name": "Google Crash Feedback",
+          "notes": "Sends crash logs to Google."
+        },
+        {
+          "package": "com.oplus.nrMode",
+          "name": "5G NR Mode Configurator",
+          "notes": "Redundant 5G network polling (safe to disable especially on 4G phones)."
+        }
+      ]
+    },
+    "oem_optional_features": {
+      "description": "OEM add-ons that can be disabled if not actively used.",
+      "packages": [
+        {
+          "package": "com.oneplus.opshelf",
+          "name": "OnePlus Shelf",
+          "notes": "Swipe-down widget shelf; consumes ~160MB RAM."
+        },
+        {
+          "package": "com.oneplus.opwlb",
+          "name": "Work-Life Balance Mode",
+          "notes": "Profile switching service; consumes ~150MB RAM."
+        },
+        {
+          "package": "com.heytap.themestore",
+          "name": "HeyTap Theme Store",
+          "notes": "Theme store and ad engine."
+        },
+        {
+          "package": "com.heytap.cloud",
+          "name": "HeyTap Cloud",
+          "notes": "Oppo/OnePlus cloud backup service."
+        },
+        {
+          "package": "com.oplus.games",
+          "name": "Game Space / Game Center",
+          "notes": "Gaming overlay tool with promotional banners."
+        },
+        {
+          "package": "com.oplus.pay",
+          "name": "Oppo Pay",
+          "notes": "OEM payment framework."
+        },
+        {
+          "package": "com.oneplus.membership",
+          "name": "Red Cable Club",
+          "notes": "Account membership notifications."
+        },
+        {
+          "package": "com.oneplus.account",
+          "name": "OnePlus Account",
+          "notes": "OnePlus sign-in prompts."
+        },
+        {
+          "package": "net.oneplus.weather",
+          "name": "OnePlus Weather",
+          "notes": "Built-in weather app with background location polling."
+        }
+      ]
+    },
+    "universal_system_utilities": {
+      "description": "Android system utilities that most users do not need.",
+      "packages": [
+        {
+          "package": "com.android.printspooler",
+          "name": "Android Print Spooler",
+          "notes": "Printer queue daemon (disable if not printing wirelessly from phone)."
+        },
+        {
+          "package": "com.google.android.printservice.recommendation",
+          "name": "Print Service Recommendations",
+          "notes": "Constantly probes Wi-Fi networks for wireless printers."
+        },
+        {
+          "package": "com.google.ar.lens",
+          "name": "Google Lens",
+          "notes": "Visual search integration service."
+        }
+      ]
+    }
+  }
+}
